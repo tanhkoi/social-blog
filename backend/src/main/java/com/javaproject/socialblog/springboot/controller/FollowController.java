@@ -1,8 +1,8 @@
 package com.javaproject.socialblog.springboot.controller;
 
 import com.javaproject.socialblog.springboot.annotation.CheckUserEnabled;
-import com.javaproject.socialblog.springboot.model.User;
-import com.javaproject.socialblog.springboot.security.service.FollowService;
+import com.javaproject.socialblog.springboot.model.entities.User;
+import com.javaproject.socialblog.springboot.service.FollowService;
 import io.swagger.v3.oas.annotations.Operation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

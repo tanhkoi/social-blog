@@ -1,6 +1,6 @@
 package com.javaproject.socialblog.springboot.repository;
 
-import com.javaproject.socialblog.springboot.model.Post;
+import com.javaproject.socialblog.springboot.model.entities.Post;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.mongodb.repository.MongoRepository;

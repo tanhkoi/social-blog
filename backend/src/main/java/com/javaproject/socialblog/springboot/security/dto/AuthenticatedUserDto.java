@@ -1,6 +1,6 @@
 package com.javaproject.socialblog.springboot.security.dto;
 
-import com.javaproject.socialblog.springboot.model.UserRole;
+import com.javaproject.socialblog.springboot.model.entities.UserRole;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

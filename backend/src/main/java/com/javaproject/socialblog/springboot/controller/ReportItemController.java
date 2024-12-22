@@ -1,7 +1,7 @@
 package com.javaproject.socialblog.springboot.controller;
 
-import com.javaproject.socialblog.springboot.model.ReportItem;
-import com.javaproject.socialblog.springboot.security.service.ReportItemService;
+import com.javaproject.socialblog.springboot.model.entities.ReportItem;
+import com.javaproject.socialblog.springboot.service.ReportItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

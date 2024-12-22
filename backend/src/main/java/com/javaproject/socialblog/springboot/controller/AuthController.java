@@ -1,6 +1,6 @@
 package com.javaproject.socialblog.springboot.controller;
 
-import com.javaproject.socialblog.springboot.model.User;
+import com.javaproject.socialblog.springboot.model.entities.User;
 import com.javaproject.socialblog.springboot.security.dto.LoginResponse;
 import com.javaproject.socialblog.springboot.security.jwt.JwtTokenManager;
 import com.javaproject.socialblog.springboot.security.service.UserService;

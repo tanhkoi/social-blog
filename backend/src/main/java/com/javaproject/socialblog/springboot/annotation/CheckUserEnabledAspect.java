@@ -1,7 +1,7 @@
 package com.javaproject.socialblog.springboot.annotation;
 
-import com.javaproject.socialblog.springboot.exceptions.UserNotEnabledException;
-import com.javaproject.socialblog.springboot.model.User;
+import com.javaproject.socialblog.springboot.exception.UserNotEnabledException;
+import com.javaproject.socialblog.springboot.model.entities.User;
 import com.javaproject.socialblog.springboot.security.service.UserService;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;

@@ -1,7 +1,7 @@
 package com.javaproject.socialblog.springboot.controller;
 
 import com.javaproject.socialblog.springboot.annotation.CheckUserEnabled;
-import com.javaproject.socialblog.springboot.security.service.LikeService;
+import com.javaproject.socialblog.springboot.service.LikeService;
 import io.swagger.v3.oas.annotations.Operation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

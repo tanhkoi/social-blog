@@ -1,6 +1,9 @@
 package com.javaproject.socialblog.springboot.security.service;
 
-import com.javaproject.socialblog.springboot.model.User;
+import com.javaproject.socialblog.springboot.model.dtos.user.UserPostCount;
+import com.javaproject.socialblog.springboot.model.dtos.user.UserRequest;
+import com.javaproject.socialblog.springboot.model.dtos.user.UserResponse;
+import com.javaproject.socialblog.springboot.model.entities.User;
 import com.javaproject.socialblog.springboot.security.dto.*;
 
 import java.util.List;

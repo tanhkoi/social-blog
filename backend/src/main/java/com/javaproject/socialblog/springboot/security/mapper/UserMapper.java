@@ -1,6 +1,6 @@
 package com.javaproject.socialblog.springboot.security.mapper;
 
-import com.javaproject.socialblog.springboot.model.User;
+import com.javaproject.socialblog.springboot.model.entities.User;
 import com.javaproject.socialblog.springboot.security.dto.AuthenticatedUserDto;
 import com.javaproject.socialblog.springboot.security.dto.RegistrationRequest;
 import org.mapstruct.Mapper;

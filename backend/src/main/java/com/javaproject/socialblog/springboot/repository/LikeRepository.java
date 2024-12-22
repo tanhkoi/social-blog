@@ -1,7 +1,7 @@
 package com.javaproject.socialblog.springboot.repository;
 
-import com.javaproject.socialblog.springboot.model.Like;
-import com.javaproject.socialblog.springboot.model.LikeType;
+import com.javaproject.socialblog.springboot.model.entities.Like;
+import com.javaproject.socialblog.springboot.model.entities.LikeType;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.List;

@@ -1,8 +1,8 @@
 package com.javaproject.socialblog.springboot.controller;
 
 import com.javaproject.socialblog.springboot.annotation.CheckUserEnabled;
-import com.javaproject.socialblog.springboot.security.dto.PostResponse;
-import com.javaproject.socialblog.springboot.security.service.BookmarkService;
+import com.javaproject.socialblog.springboot.model.dtos.post.PostResponse;
+import com.javaproject.socialblog.springboot.service.BookmarkService;
 import io.swagger.v3.oas.annotations.Operation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

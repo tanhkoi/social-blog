@@ -1,9 +1,9 @@
 package com.javaproject.socialblog.springboot.controller;
 
-import com.javaproject.socialblog.springboot.model.User;
-import com.javaproject.socialblog.springboot.security.dto.UserPostCount;
-import com.javaproject.socialblog.springboot.security.dto.UserRequest;
-import com.javaproject.socialblog.springboot.security.dto.UserResponse;
+import com.javaproject.socialblog.springboot.model.entities.User;
+import com.javaproject.socialblog.springboot.model.dtos.user.UserPostCount;
+import com.javaproject.socialblog.springboot.model.dtos.user.UserRequest;
+import com.javaproject.socialblog.springboot.model.dtos.user.UserResponse;
 import com.javaproject.socialblog.springboot.security.service.UserService;
 import io.swagger.v3.oas.annotations.Operation;
 import lombok.RequiredArgsConstructor;

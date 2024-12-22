@@ -1,6 +1,6 @@
 package com.javaproject.socialblog.springboot.repository;
 
-import com.javaproject.socialblog.springboot.model.Follow;
+import com.javaproject.socialblog.springboot.model.entities.Follow;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.Optional;

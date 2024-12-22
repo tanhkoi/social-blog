@@ -1,6 +1,6 @@
 package com.javaproject.socialblog.springboot.repository;
 
-import com.javaproject.socialblog.springboot.model.Bookmark;
+import com.javaproject.socialblog.springboot.model.entities.Bookmark;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.List;

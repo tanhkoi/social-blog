@@ -1,7 +1,7 @@
 package com.javaproject.socialblog.springboot.controller;
 
-import com.javaproject.socialblog.springboot.model.Notification;
-import com.javaproject.socialblog.springboot.security.service.NotificationService;
+import com.javaproject.socialblog.springboot.model.entities.Notification;
+import com.javaproject.socialblog.springboot.service.NotificationService;
 import io.swagger.v3.oas.annotations.Operation;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

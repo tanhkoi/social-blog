@@ -1,10 +1,10 @@
 package com.javaproject.socialblog.springboot.controller;
 
-import com.javaproject.socialblog.springboot.model.ReportItem;
+import com.javaproject.socialblog.springboot.model.entities.ReportItem;
 import com.javaproject.socialblog.springboot.repository.ReportItemRepository;
-import com.javaproject.socialblog.springboot.security.service.CommentService;
-import com.javaproject.socialblog.springboot.security.service.NotificationService;
-import com.javaproject.socialblog.springboot.security.service.PostService;
+import com.javaproject.socialblog.springboot.service.CommentService;
+import com.javaproject.socialblog.springboot.service.NotificationService;
+import com.javaproject.socialblog.springboot.service.PostService;
 import com.javaproject.socialblog.springboot.security.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.*;

@@ -1,11 +1,11 @@
 package com.javaproject.socialblog.springboot.controller;
 
 import com.javaproject.socialblog.springboot.annotation.CheckUserEnabled;
-import com.javaproject.socialblog.springboot.model.Post;
-import com.javaproject.socialblog.springboot.security.dto.PostRequest;
-import com.javaproject.socialblog.springboot.security.dto.PostResponse;
-import com.javaproject.socialblog.springboot.security.service.CommentService;
-import com.javaproject.socialblog.springboot.security.service.PostService;
+import com.javaproject.socialblog.springboot.model.entities.Post;
+import com.javaproject.socialblog.springboot.model.dtos.post.PostRequest;
+import com.javaproject.socialblog.springboot.model.dtos.post.PostResponse;
+import com.javaproject.socialblog.springboot.service.CommentService;
+import com.javaproject.socialblog.springboot.service.PostService;
 import io.swagger.v3.oas.annotations.Operation;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
